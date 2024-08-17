@@ -1,3 +1,6 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = https://github.com/am-ramona/CryptoCustodian-Frontend.git
+[submodule "CryptoCustodian-Backend"]
+	path = CryptoCustodian-Backend
+	url = https://github.com/am-ramona/CryptoCustodian-Backend.git
