@@ -4,3 +4,6 @@
 [submodule "Backend"]
 	path = Backend
 	url = https://github.com/am-ramona/CryptoCustodian-Backend.git
+[submodule "__Tests__"]
+	path = __Tests__
+	url = https://github.com/am-ramona/CryptoCustodian-Tests.git
