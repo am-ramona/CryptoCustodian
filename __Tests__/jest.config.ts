@@ -1,22 +1,22 @@
-// import type {Config} from 'jest';
+// // import type {Config} from 'jest';
 
-// const config: Config = {
-//   verbose: true,
-// };
+// // const config: Config = {
+// //   verbose: true,
+// // };
 
-// export default config;
+// // export default config;
 
-// _tests_/jest.config.js
-// module.exports = {
-//   roots: ['<rootDir>'], // Adjust paths according to your structure
-//   moduleDirectories: ['node_modules', 'src'], // Adjust if you have custom directories
-//   transform: {
-//     '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
-//   },
-//   testEnvironment: 'jsdom',
-//   testPathIgnorePatterns: ['/node_modules/'],
-//   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
-// };
+// // _tests_/jest.config.js
+// // module.exports = {
+// //   roots: ['<rootDir>'], // Adjust paths according to your structure
+// //   moduleDirectories: ['node_modules', 'src'], // Adjust if you have custom directories
+// //   transform: {
+// //     '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
+// //   },
+// //   testEnvironment: 'jsdom',
+// //   testPathIgnorePatterns: ['/node_modules/'],
+// //   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
+// // };
 
 import type { Config } from '@jest/types';
 
@@ -26,7 +26,7 @@ const config: Config.InitialOptions = {
   resetMocks: true,
   testEnvironment: 'jsdom',  // Set to 'jsdom' for frontend tests if needed
   roots: [
-    '<rootDir>/../Backend',
+    // '<rootDir>/../Backend',
     '<rootDir>/../Frontend'
   ],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
@@ -55,3 +55,34 @@ const config: Config.InitialOptions = {
 
 export default config;
 
+// import type { Config } from '@jest/types';
+
+// // Sync object
+// const config: Config.InitialOptions = {
+//   preset: 'ts-jest',
+//   resetMocks: true,
+//   testEnvironment: 'jsdom',  // Set to 'jsdom' for frontend tests
+//   roots: ['<rootDir>/../Frontend'],  // Adjust this if necessary
+//   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+//   transform: {
+//     '^.+\\.(ts|tsx)?$': [
+//       'ts-jest',
+//       {
+//         tsconfig: '<rootDir>/../Frontend/tsconfig.json',  // Correct path to tsconfig
+//       },
+//     ],
+//     '^.+\\.(js|jsx)$': 'babel-jest',  // Transform JS/JSX using Babel
+//   },
+//   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+//   coverageDirectory: '<rootDir>/coverage',
+//   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+//   extensionsToTreatAsEsm: ['.ts'],
+//   moduleNameMapper: {
+//     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
+//     // Fixes issues with importing JS/TS files that might not have extensions
+//     '^(\\.{1,2}/.*)\\.js$': '$1',
+//   },
+//   rootDir: './',
+// };
+
+// export default config;
