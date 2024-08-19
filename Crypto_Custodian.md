@@ -6,10 +6,13 @@
 > **Author**: Ramona Abi-Moussa
 
 ### B. Table of Contents
-- [Introduction](#c-introduction)
-- [Decision Log](#d-decision-Log)
-- [Develoment](#e-develoment)
-- [Link](#f-link)
+- [✨Crypto Custodian!✨](#crypto-custodian)
+    - [A. Title](#a-title)
+    - [B. Table of Contents](#b-table-of-contents)
+    - [C. Introduction](#c-introduction)
+    - [D. Decision Log](#d-decision-log)
+    - [E. Development](#e-development)
+    - [F. Link](#f-link)
 
 ### C. Introduction
 - **Purpose**: Clarify the project decision log.
@@ -21,6 +24,10 @@ On the Frontend
 -  	I installed Prettier, Eslint and StyleLint as they ensure consistent code style and catch potential issues early in the development process helping in code fixing and cleaning, Lint-staged & Husky to run Prettier as a pre-commit hook thus automating formatting.
 
 -  	For testing, I used Jest framework for running my test suites and handling assertions for both unit tests and integration tests since It is suitable for testing frontend components as well as backend logic (API routes).
+
+- I have implemented the first Dashboard screen with overview of
+client portfolios, asset allocation, and performance metrics.
+
 
 - All images are imported from Carbon as requested in the Brand Book.
 
@@ -54,7 +61,7 @@ On the Tests
 - The Backend runs on localhost:5000
 
 ### F. Link
-   [Github] [github_url] 
+   [Github]
 
-   [github_url]: <https://github.com/am-ramona/CryptoCustodian>
+   [Github]: <https://github.com/am-ramona/CryptoCustodian>
   
