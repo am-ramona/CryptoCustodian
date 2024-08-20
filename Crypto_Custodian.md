@@ -6,7 +6,7 @@
 > **Author**: Ramona Abi-Moussa
 
 ### B. Table of Contents
-- [✨Crypto Custodian!✨](#crypto-custodian)
+    - [✨Crypto Custodian!✨](#crypto-custodian)
     - [A. Title](#a-title)
     - [B. Table of Contents](#b-table-of-contents)
     - [C. Introduction](#c-introduction)
