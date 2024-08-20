@@ -67,6 +67,7 @@ __Important__ Please note that I had rough time finding my MySQL database passwo
 
 - The Frontend runs on localhost:3000
 - The Backend runs on localhost:5000
+- For extra caution, please switch to the submodules main branches
 
 ### F. Link
    [Github]
