@@ -19,7 +19,7 @@
 
 ### C. Introduction
 - **Purpose**: Clarify the project decision log.
-- **Scope**:  A brief explanation of the decisions taken upon building the project.
+- **Scope**:  A concise summary of the decisions made during the project's development.
 
 ### D. Decision Log
 
@@ -67,7 +67,7 @@ __Important__ Please note that I had rough time finding my MySQL database passwo
 
 - The Frontend runs on localhost:3000
 - The Backend runs on localhost:5000
-- For extra caution, please refer to the submodules main branches
+[- For extra caution, please refer to the submodules main branches]
 
 ### F. Link
    [Github]
