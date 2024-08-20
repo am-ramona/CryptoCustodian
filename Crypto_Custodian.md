@@ -37,6 +37,7 @@ client portfolios, asset allocation, and performance metrics.
 
 - The app is currently responsive & cross-browser compatible on : Firefox, Chrome, Edge and Brave
 
+
 On the Backend
 
 - As I called the Etherscan single GET API, I use straightforward javascript vanilla fetch for API fetching. However, for scaling the application with more complex API requests in the future, Axios comes at handy to make multiple or complex requests, or require features like request cancellation, timeouts, or interceptors.
@@ -52,6 +53,7 @@ By performing these calculations on the server, I can:
 3. Maintain a clear separation of concerns, where the server handles the data processing and the frontend focuses on the presentation and user interaction
 
 __Important__ Please note that I had rough time finding my MySQL database password as it had been long time since I used it. The standard one "mysql" did not work for the user "root". So I tried to do the data saving testing within the server files. Please excuse the db check files structure. 
+
 
 On the Tests
 
