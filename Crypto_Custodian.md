@@ -23,7 +23,7 @@
 
 ### D. Decision Log
 
-On the Frontend 
+*On the Frontend* 
 -  	I installed Prettier, Eslint and StyleLint as they ensure consistent code style and catch potential issues early in the development process helping in code fixing and cleaning, Lint-staged & Husky to run Prettier as a pre-commit hook thus automating formatting.
 
 -  	For testing, I used Jest framework for running my test suites and handling assertions for both unit tests and integration tests since It is suitable for testing frontend components as well as backend logic (API routes).
