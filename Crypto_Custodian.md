@@ -1,8 +1,11 @@
 # ✨Crypto Custodian!✨
 ### A. Title
 > **Project Name**: Crypto Custodian
+> 
 > **Document Title**: Decision Log
+> 
 > **Date**: 19 August 2024
+> 
 > **Author**: Ramona Abi-Moussa
 
 ### B. Table of Contents
